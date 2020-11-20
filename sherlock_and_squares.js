@@ -5,6 +5,8 @@ function squares(a, b) {
   let ceil = Math.ceil(Math.sqrt(b));
   let counter = 0;
 
+  //   why not iterate over their roots and check bounds? seems WAY faster than iterating over ~ 100,000,000,000,000.
+  // in fact, a regular checking for "sqrt" via looping over the inclusive range of a - b times out a regular js console. HARD.
   for (let ii = floor; ii <= ceil; ii++) {
     let squared = ii ** 2;
     if (squared >= a && squared <= b) {
@@ -35,6 +37,6 @@ console.timeEnd("timing squares output");
 //   return squaresArr;
 // }
 
-// let numOfSquares = squareMe(a, b).length;
+// let numOfSquares = squareMe(1, 100000000).length;
 
 // console.log(numOfSquares);
