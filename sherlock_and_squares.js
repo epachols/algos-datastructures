@@ -17,7 +17,7 @@ function squares(a, b) {
 }
 
 console.time("timing squares output");
-squares(1, 10000000000000); // 3,162,277 squares
+squares(1, 10000000000000); // 3,162,277 squares, 53 ms.
 console.timeEnd("timing squares output");
 // squares(1, 101); //10 squares
 // squares(25, 81); // 5 squares
