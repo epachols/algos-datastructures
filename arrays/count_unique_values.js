@@ -64,7 +64,9 @@ countUniqueValuesMap = (sortedArray) => {
 
 
 // bonus: do this with O(N) extra time and O(1) space!
-// while this one is the absolute fastest, and best for space, it mutates the initial array, a no-no in quite a few operations, especially front-end.
+// while this one is the absolute fastest, 
+// and best for space, it mutates the initial array, 
+// a no-no in quite a few operations, especially front-end.
 
 countUniqueValuesConstSpace = (sortedArr) => {
     if (sortedArr.length ===0) {
