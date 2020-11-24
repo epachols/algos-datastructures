@@ -22,3 +22,7 @@ see count_unique_values.js
 we are looking for a subset of a set of data,  let's say...
 
 A max_subarray_sum.js
+
+## divide and conquer -> this one's real!
+
+divide the data into smaller chunks and then deal with them in increasingly smaller bites via comparison statements/operations.
