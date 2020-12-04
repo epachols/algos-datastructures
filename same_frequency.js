@@ -1,6 +1,8 @@
 // frequency counter problem
 
-// write a function called samefrequency. given two positive integers, find out if the two numbers have the same frequency of digits . 
+// write a function called samefrequency. 
+// given two positive integers, find out if the two numbers 
+// have the same frequency of digits . 
 
 function sameFrequency(first, second){
     let firstMap = new Map();
